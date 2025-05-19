@@ -1,0 +1,45 @@
+{
+  "appInfo": {
+    "appVersionPropertyname": "Application version"
+  },
+  "helpUrl": "https://cmp.allianz.net/display/ABSV260p/AIRCONF+Manual",
+  "projects": {
+    "opin": {
+      "id": "opin",
+      "orgId": "LeanCore",
+      "projectId": "leancore-config-opin",
+      "packageName": "@LeanCore/leancore-config-opin",
+      "name": "OPIN (ABS Classic)",
+      "isEditable": true,
+      "parentId": null,
+      "isDefault": true,
+      "defaultBranch": "main",
+      "style": "airwave",
+      "backend": "facade"
+    },
+    "digit": {
+      "id": "digit",
+      "orgId": "vaibhavbiradar-godigit",
+      "projectId": "leancore-config-abs",
+      "packageName": "@LeanCore/leancore-config-abs",
+      "name": "ABS (ABS Classic For ValueAttics)",
+      "isEditable": true,
+      "parentId": "opin",
+      "isDefault": false,
+      "defaultBranch": "main",
+      "style": "airwave",
+      "backend": "facade"
+    },
+    "champ-ui-config": {
+      "id": "champ-ui-config",
+      "name": "CHAMP",
+      "team": "leancore-crosscutting",
+      "orgId": "bmp-claims",
+      "projectId": "champ-ui-config",
+      "isEditable": true,
+      "style": "expert",
+      "excludeFromProjectSelection": true,
+      "defaultBranch": "main"
+    }
+  }
+}
